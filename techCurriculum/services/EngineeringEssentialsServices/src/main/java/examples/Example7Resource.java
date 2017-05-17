@@ -57,7 +57,12 @@ public class Example7Resource {
             }
         }
 
+        if (countryEvents.isEmpty()) {
+            return Response.status(Response.Status.OK).entity("No events found").build();
+        }
+
         return Response.status(Response.Status.OK).entity(countryEvents).build();
+
     }
 
 }

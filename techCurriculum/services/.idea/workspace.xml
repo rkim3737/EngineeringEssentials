@@ -22,11 +22,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="146">
               <caret line="72" column="36" lean-forward="false" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-              <folding>
-                <marker date="1495021471000" expanded="true" signature="3045:3322" ph="//..." />
-                <marker date="1495021471000" expanded="true" signature="3393:3626" ph="/**...*/" />
-                <marker date="1495021471000" expanded="true" signature="3687:3854" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -34,29 +30,9 @@
       <file leaf-file-name="ResourcesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/test/java/resources/ResourcesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="118" column="5" lean-forward="false" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-              <folding>
-                <marker date="1495021471000" expanded="true" signature="3946:4016" ph="{...}" />
-                <marker date="1495021471000" expanded="true" signature="4059:4801" ph="{...}" />
-                <marker date="1495021471000" expanded="true" signature="4844:5319" ph="{...}" />
-                <marker date="1495021471000" expanded="true" signature="5397:6495" ph="{...}" />
-                <marker date="1495021471000" expanded="true" signature="6539:6885" ph="{...}" />
-                <marker date="1495021471000" expanded="true" signature="6964:7293" ph="{...}" />
-                <marker date="1495021471000" expanded="true" signature="7337:7619" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Example6Resource.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example6Resource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="259">
+              <caret line="133" column="50" lean-forward="true" selection-start-line="133" selection-start-column="50" selection-end-line="133" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,34 +47,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateEvents.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/CreateEvents.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Example7Resource.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Example7Resource.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example7Resource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="-454">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Event.java">
+      <file leaf-file-name="Example8Resource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example8Resource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="63">
+              <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
               <folding>
-                <element signature="e#1444#1445#0" expanded="true" />
-                <element signature="e#1478#1479#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1294#1295#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,10 +89,11 @@
         <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java" />
         <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java" />
         <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example5Resource.java" />
+        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example6Resource.java" />
         <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/test/java/resources/ResourcesTest.java" />
         <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java" />
         <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example7Resource.java" />
-        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example6Resource.java" />
+        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example8Resource.java" />
       </list>
     </option>
   </component>
@@ -204,18 +172,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -262,100 +218,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utility" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="engineering-essentials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EngineeringEssentialsServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="solutions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="engineering-essentials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EngineeringEssentialsServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="engineering-essentials" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EngineeringEssentialsServices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -784,30 +646,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/solutions/Example12SolutionResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/solutions/Example12SolutionResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="59" column="1" lean-forward="false" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -852,9 +690,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -911,7 +747,7 @@
         <state relative-caret-position="30">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -936,11 +772,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="72" column="36" lean-forward="false" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-          <folding>
-            <marker date="1495021471000" expanded="true" signature="3045:3322" ph="//..." />
-            <marker date="1495021471000" expanded="true" signature="3393:3626" ph="/**...*/" />
-            <marker date="1495021471000" expanded="true" signature="3687:3854" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -948,15 +780,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
           <caret line="118" column="5" lean-forward="false" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-          <folding>
-            <marker date="1495021471000" expanded="true" signature="3946:4016" ph="{...}" />
-            <marker date="1495021471000" expanded="true" signature="4059:4801" ph="{...}" />
-            <marker date="1495021471000" expanded="true" signature="4844:5319" ph="{...}" />
-            <marker date="1495021471000" expanded="true" signature="5397:6495" ph="{...}" />
-            <marker date="1495021471000" expanded="true" signature="6539:6885" ph="{...}" />
-            <marker date="1495021471000" expanded="true" signature="6964:7293" ph="{...}" />
-            <marker date="1495021471000" expanded="true" signature="7337:7619" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -973,7 +797,7 @@
         <state relative-caret-position="228">
           <caret line="39" column="41" lean-forward="false" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -991,8 +815,8 @@
         <state relative-caret-position="195">
           <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="false" />
+            <element signature="e#1478#1479#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1009,6 +833,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,11 +841,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-          <folding>
-            <marker date="1495021471000" expanded="true" signature="3045:3322" ph="//..." />
-            <marker date="1495021471000" expanded="true" signature="3393:3626" ph="/**...*/" />
-            <marker date="1495021471000" expanded="true" signature="3687:3854" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1052,6 +873,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,9 +911,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="41" column="7" lean-forward="true" selection-start-line="41" selection-start-column="7" selection-end-line="41" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,7 +965,7 @@
         <state relative-caret-position="30">
           <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1157,17 +977,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/CreateEvents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -1176,11 +985,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example7Resource.java">
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="146">
+          <caret line="72" column="36" lean-forward="false" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/test/java/resources/ResourcesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="133" column="50" lean-forward="true" selection-start-line="133" selection-start-column="50" selection-end-line="133" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example6Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1192,41 +1019,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java">
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="72" column="36" lean-forward="false" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
+        <state relative-caret-position="518">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
           <folding>
-            <marker date="1495021471000" expanded="true" signature="3045:3322" ph="//..." />
-            <marker date="1495021471000" expanded="true" signature="3393:3626" ph="/**...*/" />
-            <marker date="1495021471000" expanded="true" signature="3687:3854" ph="{...}" />
+            <element signature="e#1444#1445#0" expanded="false" />
+            <element signature="e#1478#1479#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/test/java/resources/ResourcesTest.java">
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example12Resource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="118" column="5" lean-forward="false" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-          <folding>
-            <marker date="1495021471000" expanded="true" signature="3946:4016" ph="{...}" />
-            <marker date="1495021471000" expanded="true" signature="4059:4801" ph="{...}" />
-            <marker date="1495021471000" expanded="true" signature="4844:5319" ph="{...}" />
-            <marker date="1495021471000" expanded="true" signature="5397:6495" ph="{...}" />
-            <marker date="1495021471000" expanded="true" signature="6539:6885" ph="{...}" />
-            <marker date="1495021471000" expanded="true" signature="6964:7293" ph="{...}" />
-            <marker date="1495021471000" expanded="true" signature="7337:7619" ph="{...}" />
-          </folding>
+        <state relative-caret-position="-12">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example6Resource.java">
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example11Resource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="42" column="41" lean-forward="false" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        <state relative-caret-position="34">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example8Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example7Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

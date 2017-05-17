@@ -16,10 +16,22 @@
 
 package pojo;
 
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * This class will define a company and its attributes
  * Look at resources/data/companyInfo.json
  */
+@Path("dashboard")
 public class Company {
 
     // TODO - Think back to your modelling session
@@ -27,4 +39,7 @@ public class Company {
     // provided data in resources/data
 
     // TODO - add getter and setter methods for your attributes
+    @GET
+    @Path("company")
+
 }

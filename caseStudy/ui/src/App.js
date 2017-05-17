@@ -15,7 +15,10 @@
  */
 
 import React from 'react';
+import StockTicker from './components/StockTicker.js';
+import LineChart from './components/charts/LineChart.js';
 import './style/App.css';
+
 
 /**
  * TODO:
@@ -35,10 +38,6 @@ class App extends React.Component{
 
     }
 
-
-
-
-
     render () {
       return (
           <div className="page-display">
@@ -57,8 +56,9 @@ class App extends React.Component{
 
                 </div>
               </div>
-
-
+            <StockTicker/>
+            <LineChart/>
+            
                  {/**
                    *  TODO
                    *  Create a div element that shows a highchart when the ticker, start date, end date

@@ -17,42 +17,43 @@
 import React from 'react';
 import Title from "./components/Title.js";
 import Card from "./components/Card.js";
+// import JohnData from "./data/john_posts.json";
 
-function App() {
+// function App() {
   
-};
+// };
 
 class App extends React.Component {
   constructor(props){
     super(props);
 
-    this.state = [
-      {
-        author : "John Smith", 
-        text : "React is cool"
-      }, {
-        author : "Jane doe", 
-        text : "Node is cool"
-      }
-    ]; 
-  }
+    this.state = {
+      cards: [
+        {
+          author : "John Smith", 
+          text : "React is cool"
+        }, {
+          author : "Jane doe", 
+          text : "Node is cool"
+        }
+      ] 
+  };
+}
 
   render(){
-    var cards;
-    for (card in this.state) {
-      <Card author={card.author} text={card.text}/>          
-    }
+    var cards = this.state.cards.map((card, index) => (
+      <Card author={card.author}
+             text={card.text}
+             key={index}/>          
+      ));
+
     return (
       <div>
         <Title/>
-
-    
+        {cards}
       </div>
-    )
+    );
   }
-
 }
-
-
 
 export default App;
