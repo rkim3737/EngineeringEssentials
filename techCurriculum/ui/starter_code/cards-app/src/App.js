@@ -15,13 +15,44 @@
 **/
 
 import React from 'react';
+import Title from "./components/Title.js";
+import Card from "./components/Card.js";
 
 function App() {
-  return (
-    <div>
-      <h1>Hello World 2</h1>
-    </div>
-  );
+  
+};
+
+class App extends React.Component {
+  constructor(props){
+    super(props);
+
+    this.state = [
+      {
+        author : "John Smith", 
+        text : "React is cool"
+      }, {
+        author : "Jane doe", 
+        text : "Node is cool"
+      }
+    ]; 
+  }
+
+  render(){
+    var cards;
+    for (card in this.state) {
+      <Card author={card.author} text={card.text}/>          
+    }
+    return (
+      <div>
+        <Title/>
+
+    
+      </div>
+    )
+  }
+
 }
+
+
 
 export default App;

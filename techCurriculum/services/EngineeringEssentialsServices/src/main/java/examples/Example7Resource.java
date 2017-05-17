@@ -2,6 +2,7 @@ package examples;
 
 
 import model.Event;
+import utility.FileHelper;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -9,6 +10,7 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +48,16 @@ public class Example7Resource {
     @Produces(MediaType.APPLICATION_JSON)
     public Response getEventsForCountry(@PathParam("countryName") String countryName) throws IOException {
 
-        return null;
+        List<Event> allEvents = FileHelper.readAllEvents("events.json");
+        ArrayList<Event> countryEvents = new ArrayList<>();
+
+        for (Event event : allEvents){
+            if (event.getHomeCountry().toString().equals(countryName) || event.getAwayCountry().toString().equals(countryName)){
+                countryEvents.add(event);
+            }
+        }
+
+        return Response.status(Response.Status.OK).entity(countryEvents).build();
     }
 
 }

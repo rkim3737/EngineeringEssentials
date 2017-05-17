@@ -17,8 +17,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../stylesheet.css';
+import App from "./App.js";
+
+// var text =  (<div><h1>Cards</h1> <h3>Share your ideas</h3></div>);
+
+// // .redner() takes two params
+// ReactDOM.render(
+//     text,
+//     document.getElementById('root')
+// );
 
 ReactDOM.render(
-  <p>Hello World</p>,
+  <App/>,
   document.getElementById('root')
 );

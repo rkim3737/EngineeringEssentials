@@ -38,6 +38,6 @@ public class Example1Resource {
     @Path("/ok")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getResponse() throws IOException {
-        return Response.status(Response.Status.OK).entity("Congratulations! You have Successfully started your Rest Server!").build();
+        return Response.status(Response.Status.OK).entity("Hello World!\n" +"Congratulations! You have Successfully started your Rest Server!").build();
     }
 }

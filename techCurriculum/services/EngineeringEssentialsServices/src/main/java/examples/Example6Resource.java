@@ -2,13 +2,16 @@ package examples;
 
 
 import model.Country;
+import model.Event;
+import utility.FileHelper;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
-import java.util.List;
+import java.io.IOException;
+import java.util.*;
 
 /**
  * Copyright 2017 Goldman Sachs.
@@ -36,11 +39,19 @@ public class Example6Resource {
      *
      */
     @GET
-    @Path("replace")
+    @Path("allParticipatingCountries")
     @Produces(MediaType.APPLICATION_JSON)
-    public Response getAllParticipatingCountries() {
+    public Response getAllParticipatingCountries() throws IOException {
 
-        List<Country> participatingCountries = null;
-        return null;
+        List<Event> allEvents = FileHelper.readAllEvents("events.json");
+
+        Set<Country> participatingCountries = new HashSet<>();
+
+        for (Event event : allEvents) {
+            participatingCountries.add(event.getHomeCountry());
+            participatingCountries.add(event.getAwayCountry());
+        }
+
+        return Response.status(Response.Status.OK).entity(participatingCountries).build();
     }
 }
