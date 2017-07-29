@@ -69,6 +69,8 @@ public class StarterApp extends Application<Configuration> {
     @Override
     public void run(Configuration c, Environment e) throws Exception {
         LOGGER.info("Registering REST resources");
+        e.jersey().register(new CompanyResource());
+        e.jersey().register(new StockResource());
         e.jersey().register(new Example1Resource());
         e.jersey().register(new Example2Resource());
         e.jersey().register(new Example3Resource());
