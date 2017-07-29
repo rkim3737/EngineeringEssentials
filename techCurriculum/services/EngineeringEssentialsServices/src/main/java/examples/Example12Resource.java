@@ -2,12 +2,16 @@ package examples;
 
 
 import model.Event;
+import utility.FileHelper;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import java.io.IOException;
 import java.text.ParseException;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -34,21 +38,31 @@ public class Example12Resource {
     /**
      * Example 12 Instructions:
      *
-     * Fill in the function below to return a list of events that occur inbetween the start and end dates (inclusive)
+     * Fill in the function below to return a list of events that occur in between the start and end dates (inclusive)
      *
      * Hint: Read in the dates as Strings
      *
      * URL: http://localhost:8080/events/startDate/2017-03-07/endDate/2017-03-14
      */
     @GET
-    @Path("")
+    @Path("startDate/{start}/endDate/{end}")
     @Produces(MediaType.APPLICATION_JSON)
-    public List<Event> getEventsInRange() throws ParseException {
+    public List<Event> getEventsInRange(@PathParam("start") String s, @PathParam("end") String d  ) throws ParseException, IOException {
 
-        Date startDate = DATEFORMAT.parse("");
-        Date endDate = DATEFORMAT.parse("");
+        Date startDate = DATEFORMAT.parse(s);
+        Date endDate = DATEFORMAT.parse(d);
 
-        return null;
+        List<Event> events = FileHelper.readAllEvents("events.json");
+
+        List<Event> eventsInRange = new ArrayList<>();
+        for (Event event: events) {
+            if ((event.getDate().before(endDate) || event.getDate().equals(endDate))
+                    && (event.getDate().after(startDate) || event.getDate().equals(startDate))) {
+                eventsInRange.add(event);
+            }
+        }
+        return eventsInRange;
+
     }
 
 }

@@ -16,11 +16,27 @@
 
 package resources;
 
+import jdk.nashorn.internal.objects.annotations.Getter;
+
+import java.io.IOException;
+import java.text.ParseException;
+import java.util.List;
+
 // TODO - add your @Path here
+@Path("stock")
 public class StockResource {
 
     // TODO - Add a @GET resource to get stock data
     // Your service should return data based on 3 inputs
     // Stock ticker, start date and end date
+    @GET
+    @Path("startDate/{startDate}/endDate/{endDate}")
+    public String getEventsInRange(@PathParam("stockSymbol") String stockSymbol,
+                                        @PathParam("startDate") String startDateStr,
+                                        @PathParam("endDate") String endDateStr) throws IOException, ParseException {
+
+
+        return "";
+    }
 
 }

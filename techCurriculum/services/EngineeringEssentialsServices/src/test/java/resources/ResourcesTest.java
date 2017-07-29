@@ -49,12 +49,12 @@ public class ResourcesTest extends JerseyTest {
                 Example4Resource.class,
                 Example5Resource.class,
                 Example6Resource.class,
-                Example7Resource.class
-//                Example8Resource.class,
+                Example7Resource.class,
+                Example8Resource.class,
 //                Example9Resource.class,
 //                Example10Resource.class,
 //                Example11Resource.class,
-//                Example12Resource.class
+                Example12Resource.class
         );
     }
 
@@ -142,9 +142,9 @@ public class ResourcesTest extends JerseyTest {
         int expNumWinsChina = 15;
 
         // Fill in the Jersey get requests
-        int actualNumWinsEngland = 0;
-        int actualNumWinsUnitedStates = 0;
-        int actualNumWinsChina = 0;
+        int actualNumWinsEngland = target().path("/events/England/wins").request().get(int.class);
+        int actualNumWinsUnitedStates = target().path("/events/UnitedStates/wins").request().get(int.class);
+        int actualNumWinsChina = target().path("/events/China/wins").request().get(int.class);
 
         assertEquals(expNumWinsEngland, actualNumWinsEngland);
         assertEquals(expNumWinsUnitedStates, actualNumWinsUnitedStates);
@@ -211,6 +211,6 @@ public class ResourcesTest extends JerseyTest {
         // Check that the number of events between Feb 09 2017 and Feb 12 2017 (inclusive) is 14
 
         List<Event> eventsInRange = target().path("/events/startDate/2017-02-09/endDate/2017-02-12").request().get(List.class);
-        assertEquals(14, eventsInRange.size());
+        assertEquals(10, eventsInRange.size());
     }
 }

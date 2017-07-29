@@ -18,15 +18,27 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '../stylesheet.css';
 import App from "./App.js";
+// import Title from "./components/Title.js"; // Ex 1.1
 
+// ** .render() takes two params
+// ** first parameter should be single root element 
+// ** -encasing tag (like <div>) that encloses all else
+// Ex 1.1
 // var text =  (<div><h1>Cards</h1> <h3>Share your ideas</h3></div>);
-
-// // .redner() takes two params
 // ReactDOM.render(
 //     text,
 //     document.getElementById('root')
 // );
 
+// Ex 2.1
+// ReactDOM.render(
+//   <Title/>,
+//   document.getElementById('root')
+// )
+
+// Ex 2.2-
+// ** Virtual DOM
+// ** ReactDOM.render() only updates DOM elements that have been changed 
 ReactDOM.render(
   <App/>,
   document.getElementById('root')

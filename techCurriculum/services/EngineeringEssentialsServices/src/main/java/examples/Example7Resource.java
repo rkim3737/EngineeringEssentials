@@ -52,13 +52,14 @@ public class Example7Resource {
         ArrayList<Event> countryEvents = new ArrayList<>();
 
         for (Event event : allEvents){
-            if (event.getHomeCountry().toString().equals(countryName) || event.getAwayCountry().toString().equals(countryName)){
-                countryEvents.add(event);
+            if (event.getHomeCountry().toString().equalsIgnoreCase(countryName) ||
+                event.getAwayCountry().toString().equalsIgnoreCase(countryName)){
+                    countryEvents.add(event);
             }
         }
 
         if (countryEvents.isEmpty()) {
-            return Response.status(Response.Status.OK).entity("No events found").build();
+            return Response.status(Response.Status.OK).entity("No matches found for Country with name " + countryName).build();
         }
 
         return Response.status(Response.Status.OK).entity(countryEvents).build();

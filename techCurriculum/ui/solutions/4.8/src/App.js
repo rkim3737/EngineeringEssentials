@@ -44,7 +44,7 @@ class App extends React.Component {
   }
   
   render() {
-    const cards = this.state.cards.map((card, index) => (
+    var cards = this.state.cards.map((card, index) => (
       <Card author={card.author}
         text={card.text}
         key={index} />

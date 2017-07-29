@@ -76,11 +76,11 @@ public class StarterApp extends Application<Configuration> {
         e.jersey().register(new Example5Resource());
         e.jersey().register(new Example6Resource());
         e.jersey().register(new Example7Resource());
-//        e.jersey().register(new Example8Resource());
+        e.jersey().register(new Example8Resource());
 //        e.jersey().register(new Example9Resource());
 //        e.jersey().register(new Example10Resource());
 //        e.jersey().register(new Example11Resource());
-//        e.jersey().register(new Example12Resource());
+        e.jersey().register(new Example12Resource());
         LOGGER.info("Successfully started REST Service.");
     }
 

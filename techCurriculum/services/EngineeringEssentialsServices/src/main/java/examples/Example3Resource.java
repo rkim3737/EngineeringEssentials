@@ -44,7 +44,7 @@ public class Example3Resource {
     public Response getResponse() throws IOException {
         String properResponse = "This site is now fixed.";
         return Response.status(Response.Status.OK).entity(properResponse).build();
-        // Response obj takes .status() and .entity (data- String, Java obj)
+        // Response obj takes .status() and .entity (data- Java obj like String)
     }
 
     @GET

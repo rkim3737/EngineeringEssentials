@@ -1,10 +1,16 @@
 package examples;
 
+import model.Event;
+import utility.FileHelper;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import java.io.IOException;
+import java.util.List;
 
 
 /**
@@ -36,10 +42,19 @@ public class Example8Resource {
      *
      */
     @GET
-    @Path("country/{country_name}/wins")
-    @Produces(MediaType.APPLICATION_JSON)
-    public int getWins(String country) {
-        return 0;
+    @Path("{country_name}/wins")
+    public int getWins(@PathParam("country_name") String country) throws IOException {
+        List<Event> allEvents = FileHelper.readAllEvents("events.json");
+
+        int winCount = 0;
+        for( Event event: allEvents ){
+            if( event.getWinningCountry().name().equalsIgnoreCase( country ))
+                ++winCount;
+        }
+
+//        return Response.status(Response.Status.OK).entity( String.valueOf(winCount) ).build();
+//        System.out.println(winCount);
+        return winCount;
     }
 
 
