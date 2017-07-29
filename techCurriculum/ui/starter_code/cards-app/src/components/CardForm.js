@@ -1,5 +1,9 @@
 import React from 'react';
 import TextInput from './TextInput.js';
+import Select from 'react-select';
+import 'react-select/dist/react-select.css';
+import DatePicker from 'react-datepicker';
+import 'react-datepicker/dist/react-datepicker.css';
 
 // Form
 // Input needs to be changed, so use class not just function

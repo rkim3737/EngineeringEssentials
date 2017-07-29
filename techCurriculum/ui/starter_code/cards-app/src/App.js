@@ -20,7 +20,9 @@ import Card from "./components/Card.js";
 import CardForm from "./components/CardForm.js";
 // import User from "./components/User.js";
 // import Message from "./components/Message.js";
-// import JohnData from "./data/john_posts.json";
+import LineCharts from './components/LineCharts.js';
+import JohnData from './data/john_posts.json';
+import JaneData from './data/jane_posts.json';
 
 // Ex 2.2 - 3.3
 // function App(){
@@ -92,12 +94,15 @@ class App extends React.Component {
         );
 
         return (
-            <div id='app_body'>
-                <div id='left-panel'>
-                    <Title/>
-                    {cards}
+            <div>
+                <div id='app_body'>
+                    <div id='left-panel'>
+                        <Title/>
+                        {cards}
+                    </div>
+                    <CardForm onSubmit={this.handleSubmit}/>
                 </div>
-                <CardForm onSubmit={this.handleSubmit}/>
+                <LineCharts dataOne={JohnData.data} dataTwo={JaneData.data}/>
             </div>
         );
     }
