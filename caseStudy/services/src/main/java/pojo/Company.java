@@ -55,7 +55,7 @@ public class Company {
 
     // TODO - add getter and setter methods for your attributes
     public void getSymbol(){ return symbol; }
-    public String
+//    public String
 
 
 }
