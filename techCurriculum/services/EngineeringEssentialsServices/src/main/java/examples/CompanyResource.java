@@ -16,8 +16,13 @@
 
 package examples;
 
+import model.Company;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
 
 // TODO - add your @Path here
 @Path("company")
@@ -25,6 +30,14 @@ public class CompanyResource {
 
     // TODO - Add a @GET resource to get company data
     // Your service should return data for a given stock ticker
+    @GET
+    @Path("{symbol}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public String getCompany(@PathParam("symbol") Company someCo ){
+
+        return "";
+    }
+
 
     @GET
     @Path("hello")

@@ -16,12 +16,30 @@
 
 package utility;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import model.Company;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
+
 /**
  * Utility class to validate inputs
  */
 public class InputValidator {
 
     // TODO - write a method that will validate your JSON input files
+    public static List<Company> readAllEvents(String fileName) throws IOException {
+
+        InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName));
+//        InputStream resourceAsStream = FileHelper.class.getClassLoader().getResourceAsStream(fileName);
+        return mapper.readValue(inputStream, new TypeReference<List<Company>>() {
+        });
+    }
+
+
 
     // TODO - write a method that will validate the inputs to the Company Resource
 

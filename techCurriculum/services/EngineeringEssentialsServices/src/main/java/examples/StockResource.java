@@ -23,7 +23,10 @@ import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import java.io.IOException;
 import java.text.ParseException;
+import java.util.Date;
 import java.util.List;
+
+import static utility.FileHelper.DATEFORMAT;
 
 // TODO - add your @Path here
 @Path("stock")
@@ -33,7 +36,7 @@ public class StockResource {
     // Your service should return data based on 3 inputs
     // Stock ticker, start date and end date
     @GET
-    @Path("startDate/{startDate}/endDate/{endDate}")
+    @Path("{stockSymbol}/startDate/{startDate}/endDate/{endDate}")
     public String getEventsInRange(@PathParam("stockSymbol") String stockSymbol,
                                         @PathParam("startDate") String startDateStr,
                                         @PathParam("endDate") String endDateStr) throws IOException, ParseException {

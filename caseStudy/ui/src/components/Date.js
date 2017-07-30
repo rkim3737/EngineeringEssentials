@@ -1,22 +1,3 @@
-/**
- * Copyright 2017 Goldman Sachs.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
-
-
-
-
 /* Display a date picker component for the start date of the range for your line chart.
  *
  * Take a look at the react-datepicker for a DatePicker component
@@ -27,10 +8,9 @@
  */
 
 import React from 'react';
-//import DatePicker from 'react-datepicker'; UNCOMMENT this line if you are using the DatePicker component
+import DatePicker from 'react-datepicker'; // UNCOMMENT this line if you are using the DatePicker component
 import moment from 'moment';
-
-//import 'react-datepicker/dist/react-datepicker.css'; UNCOMMENT this line if you are using the DatePicker component
+import 'react-datepicker/dist/react-datepicker.css'; // UNCOMMENT this line if you are using the DatePicker component
 
 class Date extends React.Component {
     constructor (props) {
@@ -39,6 +19,7 @@ class Date extends React.Component {
             date: moment()
         };
 
+        this.handleChange = this.handleChange.bind(this);
     }
 
     componentDidMount() {
@@ -52,6 +33,8 @@ class Date extends React.Component {
          * to propagate the change to App component, which will handle it via its
          * own onChange prop.
          */
+        this.setState();
+        this.props.onChange()
     }
 
     render() {
@@ -78,3 +61,4 @@ class Date extends React.Component {
 }
 
 // Don't forget to export your component!
+export default Date;

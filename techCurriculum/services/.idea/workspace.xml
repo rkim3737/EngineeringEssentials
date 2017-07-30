@@ -17,77 +17,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="StarterApp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="72" column="49" lean-forward="false" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Company.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-208">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stock.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Stock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="16" column="11" lean-forward="false" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompanyResource.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CompanyResource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/CompanyResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+            <state relative-caret-position="330">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#924#925#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
+                <element signature="e#1209#1210#0" expanded="true" />
+                <element signature="e#1239#1240#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StockResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/StockResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InputValidator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="InputValidator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/InputValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="315">
+              <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="historicalStockData.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/resources/backup/historicalStockData.json">
+      <file leaf-file-name="FileHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="468">
+              <caret line="50" column="0" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="50" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,8 +66,20 @@
       <file leaf-file-name="Example12Resource.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example12Resource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="353">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Example7Resource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example7Resource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="61" column="92" lean-forward="false" selection-start-line="61" selection-start-column="92" selection-end-line="61" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -138,11 +120,12 @@
         <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Player.java" />
         <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example8Resource.java" />
         <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/test/java/resources/ResourcesTest.java" />
-        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Company.java" />
-        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/StockResource.java" />
         <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Stock.java" />
         <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java" />
+        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Company.java" />
+        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/StockResource.java" />
         <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/CompanyResource.java" />
+        <option value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/InputValidator.java" />
       </list>
     </option>
   </component>
@@ -367,7 +350,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="event&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/data/events.json&#10;example8&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/solutions/Example8SolutionResource.java&#10;events&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/data/events.json&#10;test&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/test/java/resources/ResourcesTest.java&#10;example11&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example11Resource.java&#10;example10&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example10Resource.java&#10;example6&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example6Resource.java&#10;example12&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/solutions/Example12SolutionResource.java&#10;dateformat&#9;PSI&#9;JAVA://java.text.DateFormat&#10;example9&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example9Resource.java&#10;country&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/model/Country.java&#10;example7&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/solutions/Example7SolutionResource.java&#10;examp&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example7Resource.java&#10;team&#9;PSI&#9;JAVA://model.Team&#10;example5&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example5Resource.java&#10;single&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/data/single-event.json&#10;example4&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java&#10;example3&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example3Resource.java&#10;example2r&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example2Resource.java&#10;example1R&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example1Resource.java&#10;example1&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example11Resource.java" />
+    <property name="SearchEverywhereHistoryKey" value="input&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/utility/InputValidator.java&#10;company&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/resources/backup/companyInfo.json&#10;event&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/resources/backup/events.json&#10;file&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java&#10;example12&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example12Resource.java&#10;date&#9;FILE&#9;jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/text/DateFormat.java&#10;example7&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example7Resource.java&#10;example&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example12Resource.java&#10;example8&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/solutions/Example8SolutionResource.java&#10;events&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/data/events.json&#10;test&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/test/java/resources/ResourcesTest.java&#10;example11&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example11Resource.java&#10;example10&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example10Resource.java&#10;example6&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example6Resource.java&#10;dateformat&#9;PSI&#9;JAVA://java.text.DateFormat&#10;example9&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example9Resource.java&#10;country&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/model/Country.java&#10;examp&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example7Resource.java&#10;team&#9;PSI&#9;JAVA://model.Team&#10;example5&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example5Resource.java&#10;single&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/data/single-event.json&#10;example4&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example4Resource.java&#10;example3&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example3Resource.java&#10;example2r&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example2Resource.java&#10;example1R&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example1Resource.java&#10;example1&#9;FILE&#9;file:///Users/rebekahkim/project/EngineeringEssentials/techCurriculum/services/EngineeringEssentialsServices/src/main/java/examples/Example11Resource.java" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/solutions/Example8SolutionResource.java" />
   </component>
   <component name="RunDashboard">
@@ -746,7 +729,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20859376" sideWeight="0.5056818" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3990755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990755" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -769,22 +752,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/test/java/resources/ResourcesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="118" column="5" lean-forward="false" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="38" column="20" lean-forward="false" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example6Resource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -963,26 +930,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-45">
-          <caret line="33" column="41" lean-forward="false" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example6Resource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/text/DateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="360" column="16" lean-forward="false" selection-start-line="360" selection-start-column="16" selection-end-line="360" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -1007,14 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="39" column="8" lean-forward="true" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example7Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="61" column="92" lean-forward="false" selection-start-line="61" selection-start-column="92" selection-end-line="61" selection-end-column="92" />
           <folding />
         </state>
       </provider>
@@ -1099,10 +1042,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example12Resource.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/text/DateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state relative-caret-position="144">
+          <caret line="381" column="13" lean-forward="false" selection-start-line="381" selection-start-column="13" selection-end-line="381" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="72" column="49" lean-forward="false" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/CompanyResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1239#1240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/resources/backup/historicalStockData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1115,56 +1094,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/model/Company.java">
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example12Resource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/InputValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/resources/backup/historicalStockData.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/StockResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="353">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/server/StarterApp.java">
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/StockResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="72" column="49" lean-forward="false" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+        <state relative-caret-position="420">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/Example7Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="61" column="92" lean-forward="false" selection-start-line="61" selection-start-column="92" selection-end-line="61" selection-end-column="92" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/examples/CompanyResource.java">
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/resources/backup/events.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+        <state relative-caret-position="-12929">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/resources/backup/companyInfo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6089">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/FileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EngineeringEssentialsServices/src/main/java/utility/InputValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="35" column="54" lean-forward="true" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,29 +1,8 @@
-/**
- * Copyright 2017 Goldman Sachs.
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing,
- * software distributed under the License is distributed on an
- * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
- * KIND, either express or implied.  See the License for the
- * specific language governing permissions and limitations
- * under the License.
- */
-
 import React from 'react';
 import StockTicker from './components/StockTicker.js';
 import LineChart from './components/charts/LineChart.js';
 import './style/App.css';
-
-
-/**
- * TODO:
- * Import your components
- */
+import CompanyData from './components/data/companyInfo.json';
 
 
 class App extends React.Component{
@@ -32,16 +11,55 @@ class App extends React.Component{
         this.state = {
             /**
              * TODO
-             * Add state objects for the user inputs and anything else you may need to render the highchart.
+             * Add state objects for the user inputs and 
+             * anything else you may need to render the highchart.
              */
+            company : {
+                symbol:"",
+                name:"",
+                city:"",
+                stateCountry:"",
+                sector:"",
+                industry:""
+            }
         };
 
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    handleChange( companyName ){
+        // find company in list of company
+        var co = null;
+        for(var i = 0; i < CompanyData.length; i++ ){
+            if( CompanyData[i].name === companyName )
+                co = CompanyData[i];
+        }
+
+        console.log(co);
+
+        this.setState(
+            {
+                company : {
+                    symbol: co.symbol,
+                    name: co.name,
+                    city: co.headquartersCity,
+                    stateCountry: co.headquartersStateOrCountry,
+                    sector: co.sector,
+                    industry: co.industry
+                }
+            }
+        )
     }
 
     render () {
+        var companyInfo = <StockTicker name={this.state.company.name} symbol={this.state.company.symbol} 
+                    city={this.state.company.city} stateCountry={this.state.company.stateCountry}
+                    sector={this.state.company.sector} industry={this.state.company.industry} 
+                    onChange={this.handleChange}/>; // need this to detect and receive onChange from StockTicker.js
+
       return (
           <div className="page-display">
-              <div className="input">
+            <div className="input">
               {/**
                * TODO
                * Render the StockTicker and Date components. You can use the date component twice
@@ -51,13 +69,11 @@ class App extends React.Component{
                * highchart should be displayed by changing the state of that boolean.
                * Don't forget to bind these methods!
                */}
-
-                <div className="date-range">
-
-                </div>
-              </div>
-            <StockTicker/>
-            <LineChart/>
+                <div className="date-range"></div>
+            </div>
+            {companyInfo}
+            
+            {/* <LineChart/> */}
             
                  {/**
                    *  TODO
