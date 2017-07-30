@@ -76,7 +76,7 @@ class App extends React.Component{
             *  be maintained as a state object.
             *  http://reactpatterns.com/#conditional-rendering
             */}
-            <LineChart/> 
+            <LineChart symbol={this.state.company.symbol }/> 
           </div>
       );
     }

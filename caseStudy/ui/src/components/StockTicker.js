@@ -31,7 +31,7 @@
 import React from 'react';
 import {Typeahead} from 'react-bootstrap-typeahead';
 import CompanyData from './data/companyInfo.json';
-import axios from 'axios';
+// import axios from 'axios';
 
 /* If you chose to use react-boostrap-typeahead, look at AsyncTypeahead for a component that 
  * provides auto-complete suggestions as you type. This would require adding a search handler 
@@ -77,6 +77,10 @@ import axios from 'axios';
 
         this.handleChange = this.handleChange.bind(this);
     }
+
+    // componentDidMount(){
+    //     axios.get()
+    // }
 
 
     handleChange(event) {
