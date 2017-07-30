@@ -27,18 +27,19 @@ public class Company {
     @JsonProperty
     private String name;
     @JsonProperty
-    private String headquarterCity;
+    private String city;
     @JsonProperty
-    private String headQuarterStateOrCountry;
+    private String stateCountry;
     @JsonProperty
     private int numOfEmployees;
     @JsonProperty
     private String sector;
     @JsonProperty
-    private String ind;
+    private String industry;
 
     // TODO - add getter and setter methods for your attributes
     public String getSymbol(){ return symbol; }
+
 //    public String
 
 

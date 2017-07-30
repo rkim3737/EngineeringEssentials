@@ -31,6 +31,7 @@
 import React from 'react';
 import {Typeahead} from 'react-bootstrap-typeahead';
 import CompanyData from './data/companyInfo.json';
+import axios from 'axios';
 
 /* If you chose to use react-boostrap-typeahead, look at AsyncTypeahead for a component that 
  * provides auto-complete suggestions as you type. This would require adding a search handler 
@@ -138,21 +139,24 @@ import CompanyData from './data/companyInfo.json';
 
         return (
             <div className="stockticker">
-                <div className="ticker-input">
-                    <p><strong>Stock Ticker</strong></p>
-                    <div className="stockticker-typeahead">
-                         {/*useful props if you decide to use react-bootstrap-typeahead*/}
-                         <Typeahead
-                             align="left"
-                             labelKey="company"
-                             onChange={this.handleChange}
-                             minLength={1}
-                             placeholder="Choose a company..."
-                             options={this.coOptions}/> 
-                    </div><br/><br/><br/>
-                    
-                </div>
-                
+                <div className="input">
+
+                    <div className="ticker-input">
+                        <p><strong>Stock Ticker</strong></p>
+                        <div className="stockticker-typeahead">
+                            {/*useful props if you decide to use react-bootstrap-typeahead*/}
+                            <Typeahead
+                                align="left"
+                                labelKey="company"
+                                onChange={this.handleChange}
+                                minLength={1}
+                                placeholder="Choose a company..."
+                                options={this.coOptions}/> 
+                        </div>
+                        <div className="date-range"></div><br/><br/><br/>
+                        
+                    </div>
+                </div>    
                 {
                     /**
                      *  TODO

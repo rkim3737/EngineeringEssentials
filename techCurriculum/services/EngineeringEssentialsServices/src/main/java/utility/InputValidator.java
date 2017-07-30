@@ -17,6 +17,7 @@
 package utility;
 
 import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import model.Company;
 
 import java.io.File;
@@ -29,9 +30,11 @@ import java.util.List;
  * Utility class to validate inputs
  */
 public class InputValidator {
+    private static final ObjectMapper mapper = new ObjectMapper();
+
 
     // TODO - write a method that will validate your JSON input files
-    public static List<Company> readAllEvents(String fileName) throws IOException {
+    public static List<Company> readAllCompanies(String fileName) throws IOException {
 
         InputStream inputStream = new FileInputStream(("data" + File.separatorChar + fileName));
 //        InputStream resourceAsStream = FileHelper.class.getClassLoader().getResourceAsStream(fileName);
