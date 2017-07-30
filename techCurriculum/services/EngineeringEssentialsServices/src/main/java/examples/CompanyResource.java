@@ -16,8 +16,16 @@
 
 package examples;
 
+import model.Company;
+import utility.FileHelper;
+import utility.InputValidator;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 // TODO - add your @Path here
 @Path("company")
@@ -25,6 +33,25 @@ public class CompanyResource {
 
     // TODO - Add a @GET resource to get company data
     // Your service should return data for a given stock ticker
+    @GET
+    @Path("{symbol}")
+    public String getCompany(@PathParam("symbol") String companySymbol ) throws IOException {
+        List<Company> allCompanies = InputValidator.readAllCompanies("companyInfo.json");
+        Company target = null;
+
+//        return allCompanies.toString();
+
+        System.out.println(allCompanies);
+        System.out.println(allCompanies.get(0));
+
+        for( Company co : allCompanies ){
+            if( co.getSymbol().equalsIgnoreCase(companySymbol) )
+                target = co;
+        }
+
+        return target.getName();
+    }
+
 
     @GET
     @Path("hello")

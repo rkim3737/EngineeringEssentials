@@ -47,15 +47,27 @@ public class Company {
     @JsonProperty
     private String headQuarterStateOrCountry;
     @JsonProperty
-    private int numOfEmployees;
-    @JsonProperty
     private String sector;
     @JsonProperty
-    private String ind;
+    private String industry;
 
     // TODO - add getter and setter methods for your attributes
     public String getSymbol(){ return symbol; }
-//    public String
+    public void setSymbol( String sy ){ symbol = sy; }
 
+    public String getName(){ return name; }
+    public void setName( String sy ){ name = sy; }
+
+    public String getHeadquarterCity(){ return headquarterCity; }
+    public void setHeadquarterCity( String sy ){ headquarterCity = sy; }
+
+    public String getHeadQuarterStateOrCountry(){ return headQuarterStateOrCountry; }
+    public void setHeadQuarterStateOrCountry( String sy ){ headQuarterStateOrCountry = sy; }
+
+    public String getSector(){ return sector; }
+    public void setSector( String sy ){ sector = sy; }
+
+    public String getIndustry(){ return industry; }
+    public void setIndustry( String sy ){ industry = sy; }
 
 }
